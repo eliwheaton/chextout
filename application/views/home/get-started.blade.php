@@ -5,7 +5,7 @@
 <div class="row">
 	<div class="seven columns centered">
 		<div class="panel radius">
-			<h2>Thank you for your interest in DentaText!</h2>
+			<h2>Thank you for your interest in Chextout!</h2>
 			<p>Currently we are only accepting new clients on an invite-only basis. If you'd like to get on our invite
 				list, please fill out the form below and we'll let you know when you can create an account. Expected notification time is 1-2 weeks.
 			</p>
