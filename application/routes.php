@@ -61,7 +61,7 @@ Route::post('get-started', function()
 			Company: '.Input::get('company').'
 			Phone: '.Input::get('phone');
 
-		mail('ewheaton@gmail.com', 'NEW Invite', $message);
+		mail('ewheaton@gmail.com', 'NEW Chextout Invite', $message);
 		
 		return Redirect::to('thank-you');
 	}
