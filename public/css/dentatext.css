@@ -1,0 +1,45 @@
+/* line 2, ../sass/dentatext.scss */
+html, body {
+  background-color: #E8EBEF;
+}
+
+/* line 6, ../sass/dentatext.scss */
+.top-bar ul > li:hover, .top-bar ul > li.active {
+  background-color: transparent;
+}
+
+/* line 10, ../sass/dentatext.scss */
+.top-bar section ul > li a:hover {
+  color: #2795B6;
+}
+
+/* line 14, ../sass/dentatext.scss */
+.panel {
+  border: 1px solid #ccc;
+  -moz-box-shadow: 1px 1px 20px 1px #CCC;
+  -webkit-box-shadow: 1px 1px 20px 1px #CCC;
+  box-shadow: 1px 1px 20px 1px #CCC;
+}
+
+/* line 21, ../sass/dentatext.scss */
+.footer {
+  margin-top: 50px;
+}
+
+/* line 25, ../sass/dentatext.scss */
+.dark-bg {
+  background-image: url("../img/switcher-background.png");
+  background-repeat: repeat-x;
+}
+
+/* line 30, ../sass/dentatext.scss */
+.intro h3 {
+  font-size: 32px;
+  color: #fff;
+}
+
+/* line 35, ../sass/dentatext.scss */
+.intro p {
+  font-size: 20px;
+  color: #878E98;
+}

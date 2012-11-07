@@ -1,0 +1,38 @@
+
+html, body {
+	background-color: #E8EBEF;
+}
+
+.top-bar ul > li:hover, .top-bar ul > li.active {
+	background-color: transparent;
+}
+
+.top-bar section ul > li a:hover {
+	color: #2795B6;
+}
+
+.panel {
+	border: 1px solid #ccc;
+	-moz-box-shadow:    1px 1px 20px 1px #CCC;
+	-webkit-box-shadow: 1px 1px 20px 1px #CCC;
+	box-shadow:         1px 1px 20px 1px #CCC;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.dark-bg {
+	background-image: url('../img/switcher-background.png');
+	background-repeat: repeat-x;
+}
+
+.intro h3 {
+	font-size: 32px;
+	color: #fff;
+}
+
+.intro p {
+	font-size: 20px;
+	color: #878E98;
+}
