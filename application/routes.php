@@ -79,6 +79,10 @@ Route::get('privacy-policy', function()
 	return View::make('home.privacy-policy');
 });
 
+Route::get('register', function() {
+	return View::make('home.register');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
