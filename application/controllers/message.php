@@ -15,7 +15,7 @@ class Message_Controller extends Base_Controller {
 			return 'conf: 173';
 		}
 		else {
-			Temp_Message::create(array('stage' => 'SIGNUP', 'mobile_phone' => $mobile_phone));
+			TempMessage::create(array('stage' => 'SIGNUP', 'mobile_phone' => $mobile_phone));
 
 			return 'You need to register to use this service: http://chextout.com/register';
 			// Send signup link
