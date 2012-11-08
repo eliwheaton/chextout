@@ -4,7 +4,9 @@ class Message_Controller extends Base_Controller {
 
 	public function action_keyword()
 	{
-		return 'gotcha';
+		$input = print_r(Input::get(), TRUE);
+		$test = Test::create(array('data' => $input));
+		return 'done';
 	}
 
 	public function action_inbox()
