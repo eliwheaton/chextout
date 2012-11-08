@@ -4,8 +4,11 @@ class Message_Controller extends Base_Controller {
 
 	public function action_keyword()
 	{
-		$input = print_r(Input::get(), TRUE);
-		$test = Test::create(array('data' => $input));
+		$mobile_num = Input::get('PhoneNumber');
+		$message = Input::get('Message');
+		$data = $mobile_num . ' ' . $message;
+
+		$test = Test::create(array('data' => $data));
 		return 'done';
 	}
 
